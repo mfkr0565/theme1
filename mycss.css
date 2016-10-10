@@ -1,0 +1,109 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic);
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+}
+
+
+/* ===== 見出し+文字 ===== */
+h1.top{
+font-size: 24px;
+}
+h2.top{
+position: relative;
+border-left: 6px solid #7c7c7c;
+font-size: 16px;
+margin: 20px 0 10px 0;
+padding: 2px 10px;
+font-family: 'Anaheim', sans-serif !important;
+}
+h2::before {
+position: absolute; left: -5.5px; bottom: 0;
+content: " ";
+width: 6px;
+height: 50%;
+background-color: rgb(229, 195, 244);
+}
+h3.top{
+margin: 15px 0 5px 0;
+font-size: 14px;
+font-family: 'Anaheim', sans-serif !important;
+}
+mark{
+background: rgb(229, 195, 244);
+padding: 0 3px;
+}
+
+
+/* ===== ナビバー ===== */
+.navbar-brand{
+    font-family: 'Anaheim', sans-serif !important;
+}
+nav.navbar {
+    border-bottom: rgba(255, 255, 255, 0);
+    background-image: url(http://alicex.jp/data/tumamigui/img/tumamigui_upld_1.jpg);
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.35);
+}
+.navbar-toggle{
+    border-color:rgba(255, 255, 255, 0)
+}
+a{
+    font-family: 'Anaheim', sans-serif !important;
+}
+li:hover{
+    background-color: rgba(229, 195, 244, 0.3)
+}
+
+/*TOPメニュー*/
+
+.navbar{
+    border-radius: 0;
+    border: none;
+    background-color: #003355; /* ベース基調となる濃い青 */
+}
+
+#logo-img{
+    height: 20px;
+}
+
+.navbar-default .navbar-nav >li > a{
+    color: #fff;
+}
+
+.navbar-default .navbar-nav >li > a:hover{
+    color: #aaa;
+}
+
+
+
+/* ===== box ===== */
+.row{
+    margin-top:30px;
+}
+.row > div{
+    color:#241d1d;
+    padding:10px;
+}
+.row > div:first-child{
+    background:red;
+}
+.row > div:nth-child(2){
+    background:blue;
+}
+.row > div:nth-child(3){
+    background:green;
+}
+
+.row > div:nth-child(4){
+    background:blue;
+}
+.row > div:nth-child(5){
+    background:green;
+}
